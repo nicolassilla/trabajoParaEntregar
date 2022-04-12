@@ -124,7 +124,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+
 
 .inicio-Img-Central{
     width: 100%;
@@ -142,7 +145,14 @@
     background-color: #02998752;
     padding: .5em;
     border-radius: .3em;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.356) , #029987);
 
+}
+
+.inicio-Contenedor-Texto-Img:hover{
+    color: black;
+    transition: 1s;
+    font-size: 4.5em;
 }
 
 
@@ -166,6 +176,12 @@
 .inicio-Texto-Portada{
     padding: 0 3em 2em 3em;
     font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.356) , #029987);
+}
+
+.inicio-Texto-Portada:hover{
+    color: black;
+    transition: .5s;
 }
 
 
